@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+
+
+    <style>
+        img {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            max-width: 50%;
+            height: auto;
+        }
+
+        h1 {
+            text-align: center;
+            text-transform: uppercase;
+            color: black;
+        }
+
+        p {
+            text-indent: 00px;
+            text-align: center;
+            letter-spacing: 1px;
+            padding: 15px;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-md">
+        <a class="navbar-brand" href="SHRWebHW.html">Home</a>
+        <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#main-navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
+                Plots
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="temp.html">City Latitude vs Max Temperature</a>
+                <a class="dropdown-item" href="humidity.html">City Latitude vs Humidity</a>
+                <a class="dropdown-item" href="cloudiness.html">City Latitude vs Cloudiness</a>
+                <a class="dropdown-item" href="windspeed.html">City Latitude vs Windspeed</a>
+            </div>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="comparisons.html">Comparisons</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="data.html">Data</a>
+        </li>
+        </ul>
+        </div>
+    </nav>
+    <h1>Temperature</h1>
+    <img src="resources/Fig1.png">
+    <p>The data loosely indicates that average wind speed increases the farther away from the equator the city is
+        situated. However, the distribution of the datapoints indicates that latitude and wind speed are not directly
+        correlative, and that the data may be incomplete or flawed. A single day's worth of data (01/05/17, in this
+        case) could be easily skewed by a weather event such as a storm, and further influenced by factors such as time
+        of year, elevation, and temperature.
+    </p>
+</body>
+
+</html>
